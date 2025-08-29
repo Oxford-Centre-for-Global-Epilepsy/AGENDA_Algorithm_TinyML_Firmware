@@ -34,14 +34,13 @@ To be able to directly drop in and use, the output of the model conversion facto
 - Delete the model length variable at the end of each file.
 - For optimal performance, add "alignas(16)" before the model variable declaration.
 
-## "/Datasets"
+## "/Dataset"
 
-This folder contains the dataset that can be directly dropped onto the SD card and used for testing. 
-
-*NOT YET — WAITING TO FIGURE OUT HOW TO SECURELY PLACE PATIENT DATA*.
+This folder contains the link to dataset that can be directly dropped onto the SD card and used for testing.
 
 To use it, drop the whole folder of ".csv" files onto the SD card, and change line 64 in "teensy_test.ino" (*dataDir*) to match the name of the dataset folder.
 
+**Note**: Due to patient privacy, the dataset is hosted on Oxford SharePoint and is not publicly accessible.
 
 ## Miscellaneous Notes
 
